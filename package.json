@@ -1,6 +1,6 @@
 {
   "name": "brain-games-blazecolour",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "brain games",
   "main": "index.js",
   "bin": {
@@ -12,6 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel-node": "babel-node",
+    "eslint": "eslint",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
@@ -28,8 +29,12 @@
   "devDependencies": {
     "babel-cli": "*",
     "babel-core": "*",
+    "babel-eslint": "^8.2.2",
     "babel-preset-env": "*",
-    "babel-preset-stage-0": "*"
+    "babel-preset-stage-0": "*",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
   },
   "dependencies": {
     "readline-sync": "^1.4.9"
