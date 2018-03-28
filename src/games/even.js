@@ -1,8 +1,8 @@
 import gamePlay from '..';
+import getRandom from '../lib/rand';
 
 export default () => {
   const description = 'Answer "yes" if number even otherwise answer "no"';
-  const getRandom = range => Math.round(Math.random() * range);
   const isNumEven = num => (num % 2 === 0 ? 'yes' : 'no');
   const attempts = 3;
 

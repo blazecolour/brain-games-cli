@@ -1,10 +1,11 @@
 {
   "name": "brain-games-blazecolour",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "brain games",
   "main": "index.js",
   "bin": {
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "files": [
     "dist"
