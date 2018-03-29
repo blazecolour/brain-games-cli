@@ -18,7 +18,7 @@ const calc = (str) => {
 
 export default () => {
   const description = 'What is the result of the expressions?';
-  const attempts = 3;
+
   const args = () => {
     const x = getRandom(100);
     const y = getRandom(100);
@@ -30,5 +30,5 @@ export default () => {
     return [question, correctAnswer];
   };
 
-  return gamePlay(description, args, attempts);
+  return gamePlay(description, args);
 };

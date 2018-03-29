@@ -4,7 +4,6 @@ import getRandom from '../lib/rand';
 export default () => {
   const description = 'Answer "yes" if number even otherwise answer "no"';
   const isNumEven = num => (num % 2 === 0 ? 'yes' : 'no');
-  const attempts = 3;
 
   const args = () => {
     const num = getRandom(100);
@@ -13,5 +12,5 @@ export default () => {
     return [question, correctAnswer];
   };
 
-  return gamePlay(description, args, attempts);
+  return gamePlay(description, args);
 };
