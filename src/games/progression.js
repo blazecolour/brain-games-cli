@@ -6,7 +6,7 @@ const generateProgression = (start, end, step) => {
   return iter(start);
 };
 
-const hidenElement = (arr, target) =>
+const hideElement = (arr, target) =>
   (arr.reduce((acc, current, index) =>
     (index !== target ? acc.concat(current) : acc.concat('..')), []).join(' '));
 
@@ -19,7 +19,7 @@ export default () => {
     const end = 10;
     const target = getRandom(9);
     const progression = generateProgression(start, end, step);
-    const question = hidenElement(progression, target);
+    const question = hideElement(progression, target);
     const correctAnswer = String(progression[target]);
     return [question, correctAnswer];
   };
