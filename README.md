@@ -2,7 +2,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/d94707a2566a5dac9d6a/maintainability)](https://codeclimate.com/github/blazecolour/project-lvl1-s248/maintainability) 
 [![Build Status](https://travis-ci.org/blazecolour/project-lvl1-s248.svg?branch=master)](https://travis-ci.org/blazecolour/project-lvl1-s248) 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 [![NPM](https://nodei.co/npm/brain-games-blazecolour.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/brain-games-blazecolour/)
 
@@ -29,4 +29,4 @@ Six terminal-based CLI games built with Node.js.
 
 ## License
 
-**[MIT](../blob/master/LICENSE.md)**
+**[MIT](./LICENSE.md)**
