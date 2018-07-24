@@ -29,4 +29,4 @@ Six terminal-based CLI games built with Node.js.
 
 ## License
 
-MIT
+**[MIT](../blob/master/LICENSE.md)**
