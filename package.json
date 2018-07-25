@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blazecolour/project-lvl1-s248.git"
+    "url": "git+https://github.com/blazecolour/brain-games-cli.git"
   },
   "author": "Serg Shitikov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blazecolour/project-lvl1-s248/issues"
+    "url": "https://github.com/blazecolour/brain-games-cli/issues"
   },
-  "homepage": "https://github.com/blazecolour/project-lvl1-s248#readme",
+  "homepage": "https://github.com/blazecolour/brain-games-cli#readme",
   "devDependencies": {
     "babel-cli": "*",
     "babel-core": "*",
